@@ -22,6 +22,7 @@ body {
   grid-auto-rows: 200px;
   gap: 8px;
   padding: 8px;
+  overflow: hidden;
 }
 
 img {
@@ -56,7 +57,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .masonry {
-    grid-template-columns: repeat(4, minmax(90px, 1fr));
+    grid-template-columns: repeat(4, minmax(80px, 1fr));
     grid-auto-rows: 100px;
   }
   .item1{
